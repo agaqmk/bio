@@ -1,0 +1,152 @@
+@use "macchiato";
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #{macchiato.$base};
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  &::before {
+    content: ' ';
+    position: fixed;
+    display:block;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left:0;
+    background-image: url(/bg.png);
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@keyframes aaatext {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 100% 0;
+  }
+}
+.loadoverlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: #{macchiato.$base}66;
+  backdrop-filter: blur(16px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  h2 {
+    background: linear-gradient(45deg, #{macchiato.$mauve}, #{macchiato.$text}, #{macchiato.$mauve}, #{macchiato.$text});
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: aaatext 4s infinite linear;
+    background-size: 400% 100%;
+    display: block;
+    font-size: 2em;
+    height: 1em;
+    margin: 0 0;
+  }
+  cursor: pointer;
+  pointer-events: all;
+  transition: 1s;
+  &.byebye {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+.lecontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: max-content;
+  min-height: 75vh;
+  max-height: 95vh;
+  overflow-y: auto;
+  width: 50vw;
+  @media screen and (max-width: 1000px) and (min-width: 500px) {
+    width: 75vw;
+  }
+  @media screen and (max-width: 500px) {
+    width: 85vw;
+  }
+  background: #{macchiato.$base}dd;
+  border-radius: 8px;
+  border: 2px solid #{macchiato.$crust}88;
+  backdrop-filter: blur(4px);
+  transform: translate(-50%,-50%);
+}
+img {
+  border-radius: 8px;
+}
