@@ -1,6 +1,6 @@
 {
   "name": "svelte-preset-routing",
-  "private": true,
+  "license": "agpl-3.0-or-later",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

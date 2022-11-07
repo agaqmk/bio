@@ -22,7 +22,11 @@
       </p>
     </div>
     <h2>Github</h2>
-    <a href="https://github.com/YieldingExploiter">Click Here</a> to go to my github.
+    <a href="https://github.com/YieldingExploiter">Click Here</a> to go to my
+    github.<br /><br />
+    This page is <a href="https://github.com/YieldingExploiter/bio">FOSS</a>!<br
+    />
+    (License: <Link to="/agpl">AGPL</Link>)
   </div>
 </div>
 

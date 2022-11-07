@@ -13,6 +13,7 @@
     '/projects': Projects,
     '/github': Github,
     '/mastodoninstances': MastodonInstances,
+    '/agpl': License,
     '/': index, // index should be last!
   };
 
@@ -23,6 +24,7 @@
   import Projects from './routes/projects.svelte';
   import Github from './routes/github.svelte';
   import MastodonInstances from './routes/mastodoninstances.svelte';
+  import License from './routes/license.svelte';
   export let url = '';
 </script>
 
