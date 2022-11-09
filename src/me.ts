@@ -1,4 +1,4 @@
-export const name = 'Yielding'
-export const pfp = 'https://cdn.discordapp.com/avatars/898971210531078164/0d5b68065a4027f81586b8bcd18cd95a.webp?size=1024'
-export const smolabt = 'Developer, Penetration Tester'
-export const discord = `${name}#3961`
+export const name = 'aga'
+export const pfp = 'https://cdn.discordapp.com/attachments/881265037518454854/1039693167638888468/14881b4bc454b3f432c8b0619d3801e0.webp'
+export const smolabt = 'Arch user, penguin lover'
+export const discord = `${name}#1000`
