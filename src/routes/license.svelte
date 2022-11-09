@@ -1,5 +1,6 @@
 <script lang="ts">
   import Link from '../lib/Link.svelte';
+  import { name, pfp, smolabt } from '../me';
 </script>
 
 <Link to="/">Back</Link>

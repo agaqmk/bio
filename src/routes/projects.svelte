@@ -1,23 +1,20 @@
 <script lang="ts">
   import Link from '../lib/Link.svelte';
+  import { name, pfp, smolabt } from '../me';
 </script>
 
 <div class="cont">
   <div class="inlineme pct">
     <div>
       <div class="inlineme profilething">
-        <img
-          src="https://cdn.discordapp.com/avatars/898971210531078164/0d5b68065a4027f81586b8bcd18cd95a.webp?size=4096"
-          alt=""
-          class="inlineme left"
-        />
+        <img src={pfp} alt="" class="inlineme left" />
         <div class="inlineme right">
-          <p>Yielding</p>
+          <p>{name}</p>
         </div>
       </div>
       <hr />
       <p>
-        Developer, Penetration Tester<br />
+        {smolabt}<br />
         <Link to="/">Back</Link>
       </p>
     </div>
