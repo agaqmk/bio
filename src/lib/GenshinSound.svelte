@@ -3,7 +3,7 @@
   import baseRoute from '../BaseRoute';
 
   const sounds = [
-    '/public/clair-de-lune.mp3'
+    '/clair-de-lune.mp3'
   ].map((v) => `${baseRoute}${v}`);
   const getRandomSound = () =>
     sounds[Math.floor(Math.random() * sounds.length)];
