@@ -23,15 +23,14 @@
     >
       <h2>About Me</h2>
       <p style="color: #dedede">
-        Hi! I'm Yielding, a 15 year old full-stack developer from Switzerland.<br
+        I AGA I USE ARCH I LOVE PENGUIN!!!! BR BA<br
         />
         <!-- start: i simply bypass -->
-        I spend most of my free time discovering exploits for games.<br /><br />
+        im a little silly<br /><br />
         <!-- end: i simply bypass -->
-        Overall, I'm a pretty chill person.<br />
+        Overall, I am stupid<br />
         <em
-          >I honestly don't quite know what to put here.<br />I'll likely put
-          something here eventually.</em
+          >quack</em
         >
       </p>
     </div>
