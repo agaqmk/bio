@@ -24,9 +24,9 @@
       <li>Manually Type it: {discord}</li>
       <li>
         <a
-          href="https://cord.breadhub.cc/"
+          href="https://discord.gg/rmDdrgcV"
           target="_blank"
-          rel="noopener noreferrer">Join the Bread Hub Discord</a
+          rel="noopener noreferrer">Join my Discord!!!!</a
         >
       </li>
     </ul>
