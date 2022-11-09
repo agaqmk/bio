@@ -14,7 +14,7 @@
       </div>
       <hr />
       <p>
-        Developer, Penetration Tester
+        {smolabt}
         <br />
         <Link to="/about">About</Link><br />
         <Link to="/projects">Projects</Link>
