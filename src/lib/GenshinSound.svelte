@@ -3,11 +3,7 @@
   import baseRoute from '../BaseRoute';
 
   const sounds = [
-    '/GenshinOST/Genshin-Impact-Main-Theme-原神192.ogg',
-    '/GenshinOST/A-Day-in-Mondstadt-蒙德的一日.ogg',
-    '/GenshinOST/Dream-Aria-_Genshin-Impact-Main-Theme-梦之咏叹.ogg',
-    '/GenshinOST/The-City-Favored-By-Wind-风所爱之城.ogg',
-    '/GenshinOST/Twilight-Serenity-_Genshin-Impact-Main-Theme-宁静的黄昏.ogg',
+    '/public/clair-de-lune.mp3'
   ].map((v) => `${baseRoute}${v}`);
   const getRandomSound = () =>
     sounds[Math.floor(Math.random() * sounds.length)];
